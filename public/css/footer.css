@@ -1,0 +1,56 @@
+.footer {
+   background-color: #D0C3AF;
+   color: white;
+   padding: 20px 0;
+}
+
+.box-container {
+   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+}
+
+.logo-box {
+   flex: 1 0 auto;
+   padding-left: 80px;
+    padding-top: 50px;
+    width: 300px;
+  height: auto;
+}
+
+.logo-box img {
+   width: 180px; 
+}
+
+.box {
+   flex: 1 1 auto;
+   padding: 0 20px;
+}
+
+.subheading {
+   font-size: 1.2rem;
+   color: white;
+}
+
+.box ul {
+   list-style: none;
+   padding: 0;
+}
+
+.box ul li {
+   margin-bottom: 10px;
+}
+
+.box a {
+   color: white;
+   text-decoration: none;
+}
+
+.credit {
+   text-align: center;
+   margin-top: 20px;
+}
+
+.credit span {
+   font-size: 12px;
+}

@@ -1,9 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+
+
+@extends('layouts.header')
+@section('body')
+<html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <title>Forum</title>
+    <link rel="stylesheet" href="{{ asset('css/forum.css') }}">
     <title>
         @if (isset($thread_title))
             {{ $thread_title }} —
@@ -14,8 +19,6 @@
         {{ trans('forum::general.home_title') }}
     </title>
 
-    <!-- Tailwind CSS (https://tailwindcss.com/docs/installation/play-cdn) -->
-    <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- Feather icons (https://github.com/feathericons/feather) -->
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
@@ -39,7 +42,26 @@
     <!-- Vue.Draggable (https://github.com/SortableJS/Vue.Draggable) -->
     <script src="//cdnjs.cloudflare.com/ajax/libs/Vue.Draggable/2.23.2/vuedraggable.umd.min.js"></script>
 </head>
-<body class="bg-gray-100">
+<style media="screen">
+    .background {
+      background-color: #FFFAF2;
+    }
+    </style>
+    <!-- header section starts
+<header>
+ 
+
+
+</header>
+header section ends -->
+
+
+<hr>
+<!-- about section starts  -->
+
+<body class="background">
+ 
+
     <nav class="v-navbar bg-white shadow py-4">
         <div class="container mx-auto px-4 md:flex md:items-center md:gap-4">
             <div class="flex justify-between items-center">
@@ -100,8 +122,7 @@
             </div>
         </div>
     </nav>
-
-    <div id="main" class="container mx-auto p-4">
+    <div id="main" class="forum mx-auto p-4">
         @include('forum.partials.breadcrumbs')
         @include('forum.partials.alerts')
 
@@ -257,6 +278,15 @@
             });
     });
     </script>
-    @yield('footer')
+  
 </body>
 </html>
+
+
+
+
+<hr>
+@include ('layouts.footer')
+
+</html>
+@endsection

@@ -1,0 +1,35 @@
+/* header.css */
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #D0C3AF;
+  color: #fff;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.right-header a {
+  margin-right: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.right-header button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.logoImage {
+  width: 300px;
+  height: auto;
+  display: flex;
+}
