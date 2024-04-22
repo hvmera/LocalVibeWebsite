@@ -1,3 +1,4 @@
+
 @extends ('forum.master', ['category' => null, 'thread' => null, 'breadcrumbs_append' => [trans('forum::general.manage')]])
 
 @section ('content')

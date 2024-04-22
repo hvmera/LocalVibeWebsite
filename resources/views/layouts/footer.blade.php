@@ -21,8 +21,8 @@
                     <li><a href="/">Home</a></li>
                     <li><a href="/about">About Us</a></li>
                     <li><a href="/contact">Contact Us</a></li>
-                    <li><a href="/privacy">Privacy Policy</a></li>
-                    <li><a href="/terms">Terms</a></li>
+                    <li><a href="/forum">Forums</a></li>
+                    <li><a href="/profile">Profile</a></li>
                 </ul>
             </div>
 

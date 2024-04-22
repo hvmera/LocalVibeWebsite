@@ -1,3 +1,14 @@
+
+@extends('layouts.header')
+@section('body')
+<html>
+<style media="screen">
+    .background {
+      background-color: #FFFAF2;
+    }
+    </style>
+    <hr>
+    <body>
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
@@ -27,3 +38,9 @@
         </div>
     </div>
 </x-app-layout>
+<hr>
+</body>
+@include ('layouts.footer')
+
+</html>
+@endsection

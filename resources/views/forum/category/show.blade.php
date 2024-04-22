@@ -139,13 +139,7 @@
                 <div class="col col-xs-8">
                     {{ $threads->links('forum.pagination') }}
                 </div>
-                <div class="col col-xs-4 text-end">
-                    @if ($category->accepts_threads)
-                        @can ('createThreads', $category)
-                            <x-forum.button-link href="{{ Forum::route('thread.create', $category) }}">{{ trans('forum::threads.new_thread') }}</x-forum.button-link>
-                        @endcan
-                    @endif
-                </div>
+                
             </div>
         @endif
     </div>

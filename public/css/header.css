@@ -1,6 +1,6 @@
 /* header.css */
 
-.container {
+.containerH {
   display: flex;
   justify-content: space-between;
   align-items: center;
