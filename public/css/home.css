@@ -1,3 +1,12 @@
+
+.heading{
+  text-align: center;
+  font-size: 4rem;
+  padding: 1rem;
+  margin: 2rem 0;
+  color: #2E1906;
+  }
+    
 .home-container {
     width: 100%;
     display: flex;

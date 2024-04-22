@@ -37,7 +37,7 @@
         </div>
 
         <!-- Credit -->
-        <div class="credit"> <span> © 2024 YourCompany. All rights reserved. </span> </div>
+        <div class="credit"> <span> © 2024 LocalVibe. All rights reserved. </span> </div>
     </section>
 </body>
 

@@ -37,3 +37,15 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('contact');
 });
+
+Route::get('/city', function () {
+    return view('city');
+});
+
+Route::get('/Digbeth', function () {
+    return view('Digbeth');
+});
+
+Route::get('/jewelleryquarter', function () {
+    return view('jewelleryquarter');
+});

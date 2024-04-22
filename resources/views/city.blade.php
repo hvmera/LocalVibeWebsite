@@ -6,8 +6,10 @@
 <html>
    <head>
        <meta charset="utf-8">
-       <title>About Us</title>
-       <link rel="stylesheet" href="{{ asset('css/about.css') }}">
+       <title>city centre</title>
+       <link rel="stylesheet" href="{{ asset('css/city.css') }}">
+       
+      <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
    </head>
 
    <style media="screen">
@@ -31,47 +33,86 @@ header section ends -->
 <!-- about section starts  -->
 
 <body class="background">
-<section class="about" id="about">
 
-
-   <h1 class="heading">About Us </h1>
-
-    <div class="info">
-           <h3>Who we are</h3>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-             <div class="center">
-                <a href="/contact" class="btn">Contact us</a>
-             </div>
-           <br>
-           <br>
-           <h4 class="heading"> The Team:</h4>
-           
-          <div class="profile">
-            <p>Humera Muhammad</p>
-            <p>200060828@aston.ac.uk</p>
-            <p>
-             I'm a final year Computer Science student studying at Aston University and this is my dissertation.</p>
+   <h1 class="heading">City Centre</h1>
+   <section class="area-container">
+      <section class="flexwrap standard">
+        <div class="area-column">
+          <img src="\images\city1.png">
+          <div class="area-column">
+            <div>
+               <h2>Population:</h2>
+              <p> Birmingham is a great place to live and work and our city has the youngest population in the continent, with under-25s accounting for nearly 40% of our population.</p>
+            </div>
           </div>
+        </div>
+        
+      </section>
+    
+      <section class="flexwrap standard">
+        <div class="area-column">
+          <div>
+            <h2>Food:</h2>
+            <p>Birmingham city centre is a foodies’ paradise, boasting over 300 restaurants bringing cuisines from over 27 countries – testament to Birmingham’s multiculturalism.</p>
+          </div>
+          <div class="area-column">
+            <img src="\images\city2.png">
+          </div>
+        </div>
+        
+      </section>
+    
+      <section class="flexwrap standard">
+         <div class="area-column">
+           <img src="\images\city3.png">
+           <div class="area-column">
+             <div>
+               <h2>Culture:</h2>
+               <p>The multicultural city centre attracts those in need of retail therapy from far and wide. Boasting the world’s largest Primark, Selfridges, the Bullring Shopping Centre and even a historic Rag Market, there is truly something for everyone in the city centre.</p>
+             </div>
+           </div>
+         </div>
+         
+       </section>
+    
+      <section class="flexwrap standard">
+         <div class="area-column">
+           <div>
+             <h2>Nightlife:</h2>
+             <p>Broad Street is home to many nightclubs that will allow you to dance the night and most of the early morning away while making marvellous memories with your friends, to the sound of tunes from your favourite DJs.</p>
+           </div>
+           <div class="area-column">
+             <img src="\images\city4.png">
+           </div>
+         </div>
+         
+       </section>
+    </section>
+    <section class="review">
       
-   </div>
-       <div class="info">
-           <h5 class="heading">Our mission:</h4>
 
+      <div class="review-wrapper">
+         <h3>Leave a review of this area below:</h3>
+         <form action="#">
+            <div class="review-rating">
+               <input type="number" name="rating" hidden>
+               <i class='bx bx-star star' style="--i: 0;"></i>
+               <i class='bx bx-star star' style="--i: 1;"></i>
+               <i class='bx bx-star star' style="--i: 2;"></i>
+               <i class='bx bx-star star' style="--i: 3;"></i>
+               <i class='bx bx-star star' style="--i: 4;"></i>
+            </div>
+            <textarea name="opinion" cols="30" rows="5" placeholder="Your opinion..." class="review-textarea"></textarea>
+            <div class="review-btn-group">
+               <button type="submit" class="btn submit">Submit</button>
+               <button class="btn cancel">Cancel</button>
+            </div>
+         </form>
+      </div>
+    
+    </section>
+    <script src="{{ asset('resources\js\pages\review.js') }}"></script>
 
-
-
-           <p>The main aim of this project was to create an application to help people pick the right neighbourhood when looking for a place to rent or buy. I believe that a lot of the existing applications 
-            that assist users with house hunting throw a lot of information and statistics at them. However, there’s no application that allows the use to communicate with the neighbours/community
-             of where they’re looking to move into beforehand. </p>
-            
-            <p>We’d like to support you guys and make sure you’re well equipped and comfortable with the decision you end up making. </p>
-       </div>
-       </div>
-   </div>
-   <br>
-   <br>
-</section>
 </body>
 </html>
 <!-- about section ends -->

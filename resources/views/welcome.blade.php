@@ -34,7 +34,7 @@
     <hr>
     
     <div class="postcard-container">
-      <p class="postcard-header">Explore different areas within Birmingham: </p>
+      <p class="heading">Explore different areas within Birmingham: </p>
       <div class="postcard-content">
         <div class="postcard-wrapper">
           <div class="postcard-box postcard-vintage">

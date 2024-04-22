@@ -45,7 +45,7 @@
             <!-- Remember Me -->
             <div  style="padding:20px;">
             
-                <label for="register">Dont have an account with us? </label>
+                <label for="register">Don't have an account with us? </label>
                 <a href="/register">Register</a>
             </div>
 
